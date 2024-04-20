@@ -1,0 +1,26 @@
+/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #202022;
+  padding: 50px;
+  text-align: center;
+}
+
+/* style for the header 1 */
+h1{
+  text-align: center;
+  color: white;
+}
+
+/* Style the p tag */
+p {
+  color: white;
+}
+
+/* Style the buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}

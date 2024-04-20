@@ -1,0 +1,34 @@
+<!-- Roy Williams -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4.2: Incorporate Audio/title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Background audio player -->
+    <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio-->
+    <audio autoplay loop id="background-sound">
+        <source src="us-lab-background-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- h1 element  -->
+    <h1>Can You Guess This Sound?</h1>
+    
+    <!-- p tag element -->
+    <p>Get it right and win a $10 Starbucks card.</p>
+
+    <!-- play sound button-->
+    <button id="playBtn">Play Sound</button>
+
+      <!-- Stop Button -->
+    <button id="stopBtn" disabled>Stop</button>
+    
+    <!-- javascript connection-->
+    <script src="script.js"></script>
+</body>
+</html>
